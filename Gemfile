@@ -54,6 +54,7 @@ gem 'will_paginate'
 gem 'materialize-sass', '0.100.2.1'
 # gem 'materialize-form', git: 'https://github.com/cmu-is-projects/materialize-form.git'
 gem 'materialize-form', '1.0.8'
+gem 'sassc'
 gem 'jquery-rails', '4.3.1'
 gem 'jquery-ui-rails', '6.0.1'
 
@@ -69,6 +70,7 @@ group :development, :test do
   gem 'minitest', '5.20'
   gem 'minitest-rails', '~> 8.1.0'
   gem 'minitest-reporters', '1.5.0'
+  gem 'mutex_m'
   gem 'simplecov'
 
   gem 'cucumber'
@@ -96,5 +98,5 @@ group :test do
 end
 
 gem "shakapacker", "~> 8.0"
-
 gem "react-rails", "~> 3.2"
+gem "connection_pool", "~> 2.4"
