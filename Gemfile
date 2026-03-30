@@ -46,7 +46,7 @@ gem 'bootsnap', require: false
 gem 'fast_jsonapi', '1.5'
 
 # Other gems
-gem 'validates_timeliness', git: "https://github.com/adzap/validates_timeliness"
+gem 'validates_timeliness', '~> 8.0'
 gem 'time_date_helpers', '0.0.4'
 gem 'cancancan'
 gem 'simple_form'
@@ -66,13 +66,13 @@ group :development, :test do
   gem 'rails-controller-testing'
   gem 'shoulda-context', '~> 2.0.0'
   gem 'shoulda-matchers', '~> 5.0.0'
-  gem 'minitest', '5.16.3'
-  gem 'minitest-rails', '7.0.0'
+  gem 'minitest', '5.20'
+  gem 'minitest-rails', '~> 8.1.0'
   gem 'minitest-reporters', '1.5.0'
   gem 'simplecov'
 
-  gem 'cucumber', '5.3.0'
-  gem 'cucumber-rails', '2.6.1', require: false
+  gem 'cucumber'
+  gem 'cucumber-rails', '>= 3.0.0.rc.1', require: false
   gem 'database_cleaner', '2.0.1'
   gem 'launchy', '2.5.0'
 
